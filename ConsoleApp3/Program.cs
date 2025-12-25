@@ -12,10 +12,10 @@
         Console.WriteLine("Введите операцию (+ or *):");
         char operation = Console.ReadLine()![0];
 
-        Console.WriteLine($"Результат сложения: {a + b}");
-
-        Console.WriteLine("Нажмите любую клавишу для выхода...");
         double result = operation == '+' ? a + b : a * b;
         Console.WriteLine($"Результат: {result}");
+        Console.WriteLine("Нажмите любую клавишу для выхода...");
+
+        Console.WriteLine("Программа завершена. Спасибо за использование калькулятора!");
     }
 }
