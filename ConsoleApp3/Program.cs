@@ -10,5 +10,7 @@
         double b = double.Parse(Console.ReadLine());
 
         Console.WriteLine($"Результат сложения: {a + b}");
+
+        Console.WriteLine("Нажмите любую клавишу для выхода...");
     }
 }
